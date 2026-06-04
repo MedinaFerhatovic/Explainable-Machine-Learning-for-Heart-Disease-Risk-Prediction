@@ -1,0 +1,27 @@
+# Large data files
+data/processed/preprocessing_output.pkl
+
+# Environment
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# CatBoost
+catboost_info/
+
+# Models
+models/baseline_models.pkl
+models/main_models.pkl
+models/xai_results.pkl
+
+# datasets
+2020/heart_2020_cleaned.csv
+2022/heart_2022_no_nans.csv
+2022/heart_2022_with_nans.csv
+heart.csv
